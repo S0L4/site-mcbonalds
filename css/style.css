@@ -1,0 +1,219 @@
+
+* {
+    margin: 0;
+    padding: 0;
+ }
+ body {
+    font-family: 'Calibri', 'Open Sans', sans-serif;
+ }
+ h1,h2,h3,h4,h5,h6 {
+    font-family: 'Janda Manatee Solid', 'Londrina Solid', cursive;
+ }
+ h1 {
+    display: none;
+ }
+ nav > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ff9933;
+    font-size: 1.3em;
+    height: 2.5em;
+    align-items: center;
+ }
+ nav a {
+    text-decoration: none;
+    color: #361a0c;
+    font-weight: bold;
+    padding: 0.65em 3em;
+ }
+ nav a:hover {
+    background-color: #c27629;
+    color: #fff;
+ }
+ #logo_area {
+    background-image: url(../img/fundo_logo.jpg);  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 1em;
+ }
+ #logo_area h2 {
+    color: #ff9933;
+    text-shadow: -2px -2px 0 #361a0c,
+                  2px -2px 0 #361a0c,
+                 -2px  2px 0 #361a0c,
+                  2px  2px 0 #361a0c;
+ }
+ #banner {
+    background-color: #000;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+ }
+ #banner p {
+    font-size: 2em;
+    font-weight: bold;
+ }
+ #banner img {
+    margin: 10px 0 10px 0;
+ }
+ .banner_destaque {
+    font-size: 4em;
+    font-family: 'Janda Manatee Solid', 'Londrina Solid', cursive;
+    color: #a70000;
+    -webkit-text-stroke: 4px #ffcc00;
+ }
+ #hamburgueres {
+    background-color: #361a0c;
+ }
+ #hamburgueres h2 {
+    color: #ff9933;
+    text-shadow: -2px -2px 0 #a70000,
+                  2px -2px 0 #a70000,
+                 -2px  2px 0 #a70000,
+                  2px  2px 0 #a70000;
+    font-size: 3em;
+ }
+
+ #shakes h2 {
+    color: #a70000;
+    text-shadow: -2px -2px 0 #ff9933,
+                  2px -2px 0 #ff9933,
+                 -2px  2px 0 #ff9933,
+                  2px  2px 0 #ff9933;
+    font-size: 3em;   
+}
+ 
+section {
+    text-align: center;
+ }
+ .flex-grupo {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+   color: #a70000;
+   font-family: 'Janda Manatee Solid', 'Londrina Solid', cursive;
+}
+
+.flex-grupo > div {
+   background-color: #ff9933;
+   font-size: 1em;
+}
+
+.alfa-grupo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Janda Manatee Solid', 'Londrina Solid', cursive;
+}
+
+.alfa-grupo p {
+   background-color: #ff9933;
+   font-size: 2em;
+   color: #a70000;
+}
+
+.alfa-grupo > div {
+   background-color: #ff9933;
+   font-size: 1em;
+}
+
+.flex-grupo > div > p:nth-child(odd) {
+   font-weight: bold;
+   font-size: 2em;
+}
+
+.flex-grupo > div > p:nth-child(even) {
+   font-weight: bold;
+   font-size: 3em;
+   margin-top: -0.5em;
+   text-shadow: -2px -2px 0 #ff9933,
+                 2px -2px 0 #ff9933,
+                -2px  2px 0 #ff9933,
+                 2px  2px 0 #ff9933;    
+}
+
+#hamburgueres a {
+   text-decoration: none;
+   color: #ff9933;
+   text-align: end;
+}
+
+.alfa-grupo > div > p:nth-child(odd) {
+   font-weight: bold;
+   font-size: 2em;
+}
+
+.alfa-grupo > div > p:nth-child(even) {
+   font-weight: bold;
+   font-size: 3em;
+   margin-top: -0.5em;
+   text-shadow: -2px -2px 0 #ff9933,
+                 2px -2px 0 #ff9933,
+                -2px  2px 0 #ff9933,
+                 2px  2px 0 #ff9933;    
+}
+
+#shakes a {
+   text-decoration: none;
+   color: #361a0c;
+   text-align: end;
+}
+
+#historia {
+   display: flex;
+   text-align: justify;
+   background-color: #a70000;
+   flex-direction: row;
+}
+
+#historia p {
+   font-size: 1.5em;
+   font-weight: bold;
+   color: #fff;
+   margin-left: 2,5%;
+   margin-top: 3%;
+}
+
+#historia h2 {
+   text-align: justify;
+   font-size: 2em;
+   color: #361a0c;
+   text-shadow: -2px -2px 0 #ff9933,
+                 2px -2px 0 #ff9933,
+                -2px  2px 0 #ff9933,
+                 2px  2px 0 #ff9933;
+   margin-top: 1.2em;
+   margin-right: 2em;
+   padding-left: 2em;
+}
+
+#historia a {
+   text-decoration: none;
+   color: #fff;
+   padding: 4em;
+   margin-top: 50px;  
+}
+
+#rodape {
+   background-color: #ff9933;
+   text-align: center;
+   color: #a70000;
+}
+
+#rodape a {
+   color: #a70000;
+   text-decoration: none;
+}
+
+#pedidos {
+   font-family: 'Janda Manatee Solid', 'Londrina Solid', cursive;
+}
+
+
